@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #navbar {
+    background-color: #3c332c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #edf2ed;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #b4dab5;
+    color: rgb(96, 119, 96);
+  }
+  
+  body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("/proj1/img/tinyorange.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index:-1
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
